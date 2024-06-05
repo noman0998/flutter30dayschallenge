@@ -10,7 +10,11 @@ void main() {
           title: const Text("day1"),
         ),
         body: const Center(
-          child: Text("flutter 30 days challange"),
+          child: Column(
+            children: [
+              Text("Hello World")
+            ]
+          ),
         ),
       ),
     ),
