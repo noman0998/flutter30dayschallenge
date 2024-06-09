@@ -14,7 +14,7 @@ class imagepage  extends StatelessWidget {
             width: 200,
             height: 200,
                  decoration: BoxDecoration(
-           color: Colors.purple
+           color: Colors.purple,
            borderRadius: BorderRadius.all(Radius.circular(20)),
                  ),
             child: Image.asset("asstes/dhiva-krishna-YApS6TjKj9c-unsplash(1).jpg"),
