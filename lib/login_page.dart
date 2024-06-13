@@ -12,7 +12,7 @@ class LoginPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children:[
                 SizedBox(height: 30,),
-                Container(height: 180,width: 180,child:  Image.asset("assets/image.jpg")),
+                Container(height: 180,width: 180,child:  Image.asset("assets/ima.jpg")),
                 SizedBox(height: 20,),
                 Text("Login to your account",style:TextStyle(fontSize: 30,fontWeight: FontWeight.bold,),),
                 SizedBox(height: 20,),

@@ -17,7 +17,7 @@ class imagepage  extends StatelessWidget {
            color: Colors.purple,
            borderRadius: BorderRadius.all(Radius.circular(20)),
                  ),
-            child: Image.asset('asstes/image.jpg'),
+            child: Image.asset('assets/ima.jpg'),
               ),
         ),
     );
