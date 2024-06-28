@@ -1,7 +1,11 @@
-
 import 'package:flutter/material.dart';
+import 'package:test_project/Day8.dart';
 
-class Homepage extends StatelessWidget {
+class HomePage extends StatelessWidget {
+  final UserData userData;
+
+  const HomePage({this.userData});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,9 +24,8 @@ class Homepage extends StatelessWidget {
               bottomLeft: Radius.circular(50),
               topRight: Radius.circular(50),
             )),
-        child: Column(children: [
-          Text(
-            "Hello World",
+          child:Text(
+            "username:${userData.username},userId.${userData.userId}",
             style: TextStyle(
                 fontSize: 20,
                 color: Colors.white,
@@ -32,8 +35,7 @@ class Homepage extends StatelessWidget {
                 decoration: TextDecoration.underline),
             textAlign: TextAlign.center,
           ),
-        ]),
-      ),
+        ),
     );
   }
 }
